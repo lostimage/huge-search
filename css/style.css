@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif ;
+	color: #c2c2c2;
+	margin: 0;
+}
+input[type="search"] {
+	color: #ec5a62;
+}
+input[type="search"]::-webkit-input-placeholder {
+	color:#c2c2c2;
+}
+input[type="search"]::-moz-placeholder{
+	color:#c2c2c2;
+}
+.ba-container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.ba-search-col {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.ba-search-form {
+	font-size: 0;
+}
+.ba-search-form >[type="search"]{
+	font-size: 95px;
+	display: inline-block;
+	width: calc(100% - 113px);
+	vertical-align: middle;
+}
+.ba-search-form >button {
+	display: inline-block;
+	width: 113px;
+	height: 113px;
+	vertical-align: middle;
+	border: none;
+	background: none;
+	cursor: pointer;
+	border-radius: 0;
+	background: url("../img/magnifier.svg");
+}
+.ba-column {
+	display: inline-block;
+	padding: 0;
+	width: 30%;
+	margin: 0 ;
+	border:0;
+
+}
+.ba-second-column {
+	margin: 0 4.5%;
+}
+.ba-search-col {
+	margin: 40px auto;
+}
+.ba-avatars {
+	border-radius: 50%;
+}
+.ba-image {
+	display: inline-block;
+	vertical-align: middle;
+}
+.ba-name {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.ba-col-list {
+	list-style-type: none;
+	padding: 0;
+}
+.ba-col-list li {
+background-color: rgba(118,117,128,0.1);
+}
+.ba-list {
+	padding: 10px;
+	margin:5px 0;
+	border-radius: 5px;
+}
+.ba-list:hover {
+	color: #ec5a62;
+	background-color: rgba(118,117,128,0.3)
+}
+.ba-name {
+	margin: 0;
+	width: calc(100% - 70px);
+}

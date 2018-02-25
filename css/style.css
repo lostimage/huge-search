@@ -6,8 +6,15 @@ body {
 	color: #c2c2c2;
 	margin: 0;
 }
-input[type="search"] {
+.ba-search-form input:focus {
+	border: 1px solid  #c2c2c2 ;
+}
+.ba-search-form input{
+	background-color: rgba(118,117,128,0.05);
+}
+.ba-search-form input:hover {
 	color: #ec5a62;
+	background-color: rgba(118,117,128,0.1);
 }
 input[type="search"]::-webkit-input-placeholder {
 	color:#c2c2c2;
@@ -89,4 +96,5 @@ background-color: rgba(118,117,128,0.1);
 .ba-name {
 	margin: 0;
 	width: calc(100% - 70px);
+	font-size: 14px;
 }
